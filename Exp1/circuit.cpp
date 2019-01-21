@@ -7,6 +7,6 @@ void OR(short int *,short int , short int );
 void XOR(short int *,short int , short int );
 void C1(){
   short int a,b,c;
-  a =b&c ;
+  
 
 }
