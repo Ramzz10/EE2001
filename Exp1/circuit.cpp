@@ -1,10 +1,10 @@
-void AND(short int *,short int , short int );
-void NAND(short int *,short int , short int );
-void NOT(short int *, short int);
-void NOR(short int *,short int , short int );
-void XNOR(short int *,short int , short int );
-void OR(short int *,short int , short int );
-void XOR(short int *,short int , short int );
+void AND(short int *,short int , short int );   //AND gate
+void NAND(short int *,short int , short int );  //NAND gate
+void NOT(short int *, short int);               //NOT gate
+void NOR(short int *,short int , short int );   //NOR gate
+void XNOR(short int *,short int , short int );  //XNOR gate
+void OR(short int *,short int , short int );    //OR gate
+void XOR(short int *,short int , short int );   //XOR gate
 
 //Structural Models for the Circuits
 void C1_str(short int *out,short int a,short int b ,short int c){
@@ -67,7 +67,7 @@ void C3_str(short int *out,short int a,short int b,short int c,short int d)
   OR(out,tmp1,tmp2);        //out=(NOT b)c(NOT d) + b(NOT c)(NOT d) + ac(NOT d) + (NOT a)bcd
 
 }
-//Behavioral Models for the Circuits
+//Behavioural Models for the Circuits
 void C1_beh(short int *out,short int a,short int b ,short int c){
   //z=(a+b)(a+NOT b)(NOT a+b+NOT c)
 
