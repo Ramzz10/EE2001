@@ -56,7 +56,7 @@ void Circuit3(){                                          //Circuit 3
       cout<<out<<" |\t\t     ";
       C3_beh(&out,a,b,c,d);
       cout<<out<<" |";                                                          //Printing Behavioural Output Value
-      cout<<"\n";
+      cout<<"\n\n";
   }
   data_input3.close();                                                          //Closing input stream
 }
