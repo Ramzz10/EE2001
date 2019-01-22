@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-  ofstream file("data4.dat");
+  ofstream file("data3.dat");
   int n,val;
   cout<<"Enter number of bits : ";
   cin>>n;
