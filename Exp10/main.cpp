@@ -53,9 +53,9 @@ void Circuit3(){                                          //Circuit 3
   while(data_input3>> a >> b >> c >> d ){                                       //Looping to Generate output
       C3_str(&out,a,b,c,d);
       cout<<"|\t"<<a<<" |\t"<<b<<" |\t"<<c<<" |\t"<<d<<" |\t\t ";               //Printing Structural Output Value
-      cout<<out<<" |\t\t     ";
+      cout<<(int)out<<" |\t\t     ";
       C3_beh(&out,a,b,c,d);
-      cout<<out<<" |";                                                          //Printing Behavioural Output Value
+      cout<<(int)out<<" |";                                                          //Printing Behavioural Output Value
       cout<<"\n";
   }
   data_input3.close();                                                          //Closing input stream
