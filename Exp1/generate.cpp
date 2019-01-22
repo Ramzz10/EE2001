@@ -14,5 +14,5 @@ int main(){
     }
     file<<"\n";
   }
-
+  return 0;
 }
