@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-  ofstream file("data3.dat");
+  ofstream file("file.txt");
   int n,val;
   char a='a';
   cout<<"Enter number of bits : ";
