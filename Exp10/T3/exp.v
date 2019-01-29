@@ -11,18 +11,8 @@ comp s1(s,b[1],c[1]);
 comp s2(s,b[2],c[2]);
 comp s3(s,b[3],c[3]);
 assign c[4] = c[3];
-
-assign tmp[0]=~s;
-assign tmp[1]=0;
-assign tmp[2]=0;
-assign tmp[3]=0;
-assign tmp[4]=0;
-
-assign d[0]=a[0];
-assign d[1]=a[1];
-assign d[2]=a[2];
-assign d[3]=a[3];
-assign d[4]=a[3];
+assign tmp = {s&~s,s&~s,s&~s,s&~s,~s};
+assign d = {a[3],a};
 
 five_bit fb1(c,tmp,sum,cout);
 

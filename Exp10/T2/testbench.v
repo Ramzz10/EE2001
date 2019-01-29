@@ -7,7 +7,7 @@ initial
 begin
 $dumpfile("testfive.vcd");
 $dumpvars(0,test_five_bit_adder);
-$monitor("At time = %t,a = %b,b = %b,,sum = %b%b",$time,a,b,cout,s);
+$monitor("At time = %t , a  =  %b , b  =  %b , sum = %b%b",$time,a,b,cout,s);
 #10 a = 4'b0000; b = 4'b0000;
 #10 a = 4'b0000; b = 4'b0001;
 #10 a = 4'b0000; b = 4'b0010;
