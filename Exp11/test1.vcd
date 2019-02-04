@@ -1,5 +1,5 @@
 $date
-	Mon Feb  4 15:47:20 2019
+	Mon Feb  4 16:13:46 2019
 $end
 $version
 	Icarus Verilog
@@ -14,32 +14,41 @@ $var reg 1 # I $end
 $var reg 2 $ s [1:0] $end
 $scope module DUT $end
 $var wire 1 # I $end
-$var wire 4 % out [3:0] $end
-$var wire 2 & s [1:0] $end
-$var reg 4 ' wi [3:0] $end
+$var wire 2 % s [1:0] $end
+$var reg 4 & out [3:0] $end
+$upscope $end
+$scope module DUT1 $end
+$var wire 1 # I $end
+$var wire 2 ' s [1:0] $end
+$var wire 4 ( out [3:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-bx1 '
-b0 &
-bx1 %
+b1 (
+b0 '
+b1 &
+b0 %
 b0 $
 1#
-bx1 "
-bz !
+b1 "
+b1 !
 $end
 #10
-bx1x1 "
-bx1x1 %
-bx1x1 '
+b100 "
+b100 &
+b100 !
+b100 (
 b10 $
-b10 &
+b10 %
+b10 '
 #20
-bx111 "
-bx111 %
-bx111 '
+b10 !
+b10 (
+b10 "
+b10 &
 b1 $
-b1 &
+b1 %
+b1 '
 #30
