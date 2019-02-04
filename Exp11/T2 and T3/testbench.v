@@ -10,7 +10,7 @@ initial
 begin
 $dumpfile("test1.vcd");
 $dumpvars(0,test_demux);
-$monitor("At time = %t , I = %b , s = %b , out_beh = %b , out_dat = %b" ,$time,I,s,out1,out2);
+$monitor("At time = %t , I = %b , s = %b , Behavioural output = %b , Data flow output = %b" ,$time,I,s,out1,out2);
 #10 I=1; s=2'b00;      //t=0
 #10 I=1; s=2'b01;      //t=10
 #10 I=1; s=2'b10;      //t=20
