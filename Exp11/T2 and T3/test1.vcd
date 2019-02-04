@@ -1,5 +1,5 @@
 $date
-	Mon Feb  4 16:13:46 2019
+	Mon Feb  4 16:16:50 2019
 $end
 $version
 	Icarus Verilog
@@ -26,29 +26,46 @@ $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-b1 (
-b0 '
-b1 &
-b0 %
-b0 $
-1#
-b1 "
-b1 !
+bx (
+bx '
+bx &
+bx %
+bx $
+x#
+bx "
+bx !
 $end
 #10
-b100 "
-b100 &
-b100 !
-b100 (
-b10 $
-b10 %
-b10 '
+b1 !
+b1 (
+b1 "
+b1 &
+b0 $
+b0 %
+b0 '
+1#
 #20
-b10 !
-b10 (
 b10 "
 b10 &
+b10 !
+b10 (
 b1 $
 b1 %
 b1 '
 #30
+b100 !
+b100 (
+b100 "
+b100 &
+b10 $
+b10 %
+b10 '
+#40
+b1000 !
+b1000 (
+b1000 "
+b1000 &
+b11 $
+b11 %
+b11 '
+#50
