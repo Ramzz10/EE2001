@@ -6,8 +6,8 @@ initial
 begin
 $dumpfile("test.vcd");
 $dumpvars(0,test_max);
-$monitor("At time = %t,A = %b,B = %b, Max(A,B) = %b",$time,a,b,out);
-#10 a = 4'b0000; b = 4'b0110; 
+$monitor("At time = %t , A = %b , B = %b , Max(A,B) = %b",$time,a,b,out);
+#10 a = 4'b0000; b = 4'b0110;
 #10 a = 4'b0000; b = 4'b0111;
 #10 a = 4'b0100; b = 4'b1000;
 #10 a = 4'b0000; b = 4'b1001;
