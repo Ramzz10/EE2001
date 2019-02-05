@@ -26,6 +26,7 @@ $monitor("At time = %t , A = %b , B = %b , Max(A,B) = %b",$time,a,b,out);
 #10 a = 4'b0001; b = 4'b0110;
 #10 a = 4'b1001; b = 4'b0111;
 #10 a = 4'b0001; b = 4'b1000;
+#10 a = 4'b1011; b = 4'b1101;
 $finish;
 end
 endmodule
